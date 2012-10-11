@@ -1,3 +1,7 @@
+/* @override 
+	http://www.site.dev/www.lapage-ch.dev/wp-content/themes/LAPAGE/style.css
+	http://www.site.dev/www.lapage-ch.dev/wp-content/themes/lapage/style.css */
+
 /*
 Theme Name: LAPAGE
 Theme URI: http://lapage.ch
@@ -5,9 +9,7 @@ Github Theme URI: https://github.com/atraben/lapage
 Author: SO2DESIGN
 Author URI: http://so2design.ch/
 Description: A semantic, HTML5, canvas for CSS artists and an ultra-minimal set of super-clean templates for your own WordPress theme development.
-Version: 0.1.4
-License: GNU General Public License
-License URI: license.txt
+Version: 0.2.0
 Tags: custom-menu, sticky-post, microformats, rtl-language-support, translation-ready, full-width-template, post-formats
 */
 
@@ -16,7 +18,8 @@ Tags: custom-menu, sticky-post, microformats, rtl-language-support, translation-
 
 #page {
 	display: block;
-	margin: 1em;
+	margin: 1em auto 0;
+	width: 940px;
 }
 #primary {
 	float: left;
@@ -75,7 +78,10 @@ Tags: custom-menu, sticky-post, microformats, rtl-language-support, translation-
 #site-title {
 	font-size: 2em;
 	font-weight: bold;
-	margin: .67em 0;
+	margin: .67em auto;
+	text-align: center;
+	width: 212px;
+	height: 34px;
 }
 #site-description {
 	font-size: 1em;
@@ -91,23 +97,43 @@ Tags: custom-menu, sticky-post, microformats, rtl-language-support, translation-
 	background: #eee;
 	display: block;
 	float: left;
-	margin: 0 auto 1em;
 	width: 100%;
+	margin-top: 0;
+	margin-bottom: 1em;
+	text-transform: uppercase;
 }
 #access ul {
+	#display: inline;
+	padding: 0 0 0 90px;
+	margin:0;
+	text-align: center;
 	list-style: none;
-	margin: 0;
-	padding-left: 0;
+	display: inline-block;
+/*	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;*/
 }
 #access li {
-	float: left;
 	position: relative;
+	float: left;
+	display: inline;
+	text-align: center;
 }
-#access a {
-	display: block;
+.menu-item-6{
+}
+.menu-item-8{
+	margin-right: 160px;
+}
+.menu-item-5{
+}
+.menu-item-9{
+}
+#access li a {
 	line-height: 2em;
 	padding: 0 1em;
 	text-decoration: none;
+	text-align: center;
+	display: block;
 }
 #access ul ul {
 	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
