@@ -1,3 +1,6 @@
+/* @override 
+	http://www.site.dev/www.lapage-ch.dev/wp-content/themes/lapage/style.css */
+
 /*
 Theme Name: LAPAGE
 Theme URI: http://lapage.ch
@@ -5,23 +8,32 @@ Github Theme URI: https://github.com/atraben/lapage
 Author: SO2DESIGN
 Author URI: http://so2design.ch/
 Description: A semantic, HTML5, canvas for CSS artists and an ultra-minimal set of super-clean templates for your own WordPress theme development.
-Version: 0.2.0
+Version: 0.3.0
 Tags: custom-menu, sticky-post, microformats, rtl-language-support, translation-ready, full-width-template, post-formats
 */
 
 /* =Structure
 -------------------------------------------------------------- */
+body {
+	margin: 0;
+}
 
 #page {
 	display: block;
-	margin: 1em auto 0;
 	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #primary {
 	float: left;
-	margin: 0 -240px 0 0;
+	margin: 80px 0 0;
 	width: 100%;
 }
+
+#main {
+	
+}
+
 #content {
 	margin: 0 280px 0 0;
 }
@@ -74,34 +86,41 @@ Tags: custom-menu, sticky-post, microformats, rtl-language-support, translation-
 #site-title {
 	font-size: 2em;
 	font-weight: bold;
-	margin: .67em auto;
 	text-align: center;
 	width: 212px;
 	height: 34px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #site-description {
 	font-size: 1em;
 	font-weight: normal;
 	margin: 0 0 1em;
 }
-
+#branding{
+	z-index: 10;
+	float: none;
+	margin-top: 0;
+	position: fixed;
+}
 
 /* =Menu
 -------------------------------------------------------------- */
 
 #access {
-	background: #eee;
 	display: block;
 	float: left;
-	width: 100%;
-	margin-top: 0;
-	margin-bottom: 1em;
+	width: 940px;
 	text-transform: uppercase;
+	height: 97px;
+	background-image: url(images/nemu-head.png);
+	position: static;
+	margin-top: -76px;
 }
 #access ul {
 	#display: inline;
-	padding: 0 0 0 90px;
-	margin:0;
+	padding: 0;
+	margin: 26px 0 0;
 	text-align: center;
 	list-style: none;
 	display: inline-block;
@@ -115,21 +134,30 @@ Tags: custom-menu, sticky-post, microformats, rtl-language-support, translation-
 	display: inline;
 	text-align: center;
 }
-.menu-item-6{
+.menu-item{
+	font: bold 12px 'Lato',sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
 }
-.menu-item-8{
-	margin-right: 160px;
+#menu-item-6{
 }
-.menu-item-5{
+#menu-item-8{
+	margin-right: 230px;
 }
-.menu-item-9{
+#menu-item-5{
+}
+#menu-item-9{
 }
 #access li a {
 	line-height: 2em;
-	padding: 0 1em;
 	text-decoration: none;
 	text-align: center;
 	display: block;
+	color: black;
+	padding: 0 8px;
+	margin-right: 37px;
+	margin-left: 37px;
 }
 #access ul ul {
 	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
@@ -155,10 +183,13 @@ Tags: custom-menu, sticky-post, microformats, rtl-language-support, translation-
 }
 #access li:hover > a,
 #access ul ul :hover > a {
-	background: #dedede;
+	background: #000;
+	color: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 #access ul ul a:hover {
-	background: #cecece;
 }
 #access ul li:hover > ul {
 	display: block;
