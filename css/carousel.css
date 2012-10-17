@@ -1,0 +1,60 @@
+/* @override 
+	http://www.site.dev/www.lapage-ch.dev/wp-content/themes/lapage/css/carousel.css */
+
+
+.touchcarousel.tc-layout-2 .touchcarousel-item {
+	width: 940px;
+	height: 400px;
+	position: relative;
+	margin-right: 10px;
+	overflow: hidden;
+	background-color: #fff;
+}
+.touchcarousel.tc-layout-2 .tc-desc {
+	width: 940px;
+	padding: 10px 15px;
+	color: #000;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	display: block;
+	float: left;
+	text-align: center;
+}
+.touchcarousel.tc-layout-2 .tc-image-holder {
+	display: block;
+	width: 400px;
+	height: 270xp;
+	float: left;
+}
+.touchcarousel.tc-layout-2 h4 a {
+	color: #000;
+	text-decoration: none;
+}
+.touchcarousel.tc-layout-2 h4 {
+	font: 48px/0.9em 'Fjord One', serif;
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.touchcarousel.tc-layout-2 .tc-meta a,
+.touchcarousel.tc-layout-2 .tc-meta span {
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	font-family: Georgia, serif;
+	font-style: italic;
+}
+.touchcarousel.tc-layout-2 span {
+	color: #FFF;
+}
+.touchcarousel.tc-layout-2 p {
+	color: #000;
+	font-size: 14px;
+	line-height: 1.4em;
+	margin: 7px 0 2px 0;
+	pading: 0;
+}
+.touchcarousel.tc-layout-2 a img {
+	max-width: none;
+	margin: 0;
+	padding: 0;
+}
