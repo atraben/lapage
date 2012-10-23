@@ -6,16 +6,12 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<h1 class="entry-title"><?php the_title(); ?></h1>
+		<h2 class="entry-title"><?php the_title(); ?></h2>
 
-		<div class="entry-meta">
-			<?php toolbox_posted_on(); ?>
-		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
 		<?php the_content(); ?>
-		<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'toolbox' ), 'after' => '</div>' ) ); ?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-meta">
@@ -42,17 +38,7 @@
 					$meta_text = __( 'This entry was posted in %1$s. Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink</a>.', 'toolbox' );
 				}
 
-			} // end check for categories on this blog
+			} // end check for categories on this blog		?>
 
-			printf(
-				$meta_text,
-				$category_list,
-				$tag_list,
-				get_permalink(),
-				the_title_attribute( 'echo=0' )
-			);
-		?>
-
-		<?php edit_post_link( __( 'Edit', 'toolbox' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post-<?php the_ID(); ?> -->

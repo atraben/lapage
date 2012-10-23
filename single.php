@@ -11,12 +11,24 @@ get_header(); ?>
 		<div id="primary">
 			<div id="content" role="main">
 
+
 			<?php while ( have_posts() ) : the_post(); ?>
 
+<?php 
 
-				<?php get_template_part( 'content', 'single' ); ?>
+if ( in_category('publications') ) { 
 
+		 get_template_part( 'content', 'single_livre' ); 
 
+ } elseif ( in_category('expositions') ) { 
+
+		 get_template_part( 'content', 'single_expo' ); 
+		
+ } else { 
+
+		 get_template_part( 'content', 'single' ); 
+
+ } ?>
 				<?php
 					// If comments are open or we have at least one comment, load up the comment template
 					if ( comments_open() || '0' != get_comments_number() )
