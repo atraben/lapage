@@ -95,6 +95,7 @@ body {
 	font-size: 1em;
 	font-weight: normal;
 	margin: 0 0 1em;
+	display: none;
 }
 #branding{
 	z-index: 10;
@@ -117,7 +118,7 @@ body {
 	background: url(../images/nemu-head.png) no-repeat;
 }
 #access ul {
-	#display: inline;
+	display: inline;
 	padding: 0;
 	margin: 26px 0 0;
 	text-align: center;
@@ -138,15 +139,6 @@ body {
 	text-transform: uppercase;
 	text-decoration: none;
 	color: black;
-}
-#menu-item-6{
-}
-#menu-item-8{
-	margin-right: 230px;
-}
-#menu-item-5{
-}
-#menu-item-9{
 }
 #access li a {
 	line-height: 2em;

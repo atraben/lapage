@@ -10,20 +10,25 @@
 	overflow: hidden;
 	background-color: #fff;
 }
+.touchcarousel.tc-layout-2 .touchcarousel-item a {
+	text-decoration: none;
+}
 .touchcarousel.tc-layout-2 .tc-desc {
-	width: 940px;
 	padding: 10px 15px;
 	color: #000;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	display: block;
-	float: left;
 	text-align: center;
+	position: relative;
+	z-index: 10;
 }
 .touchcarousel.tc-layout-2 .tc-image-holder {
-	display: block;
-	width: 400px;
 	height: 270xp;
-	float: left;
+	text-align: center;
+	position: relative;
+	top: -75px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 0;
 }
 .touchcarousel.tc-layout-2 h4 a {
 	color: #000;
@@ -32,15 +37,13 @@
 .touchcarousel.tc-layout-2 h4 {
 	font: 48px/0.9em 'Fjord One', serif;
 	width: 720px;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 45px auto 10px;
 }
 .touchcarousel.tc-layout-2 .tc-meta a,
 .touchcarousel.tc-layout-2 .tc-meta span {
 	font-size: 12px;
 	font-weight: normal;
 	color: #000;
-	font-family: Georgia, serif;
 	font-style: italic;
 }
 .touchcarousel.tc-layout-2 span {
@@ -48,13 +51,12 @@
 }
 .touchcarousel.tc-layout-2 p {
 	color: #000;
-	font-size: 14px;
-	line-height: 1.4em;
-	margin: 7px 0 2px 0;
+	margin: 7px auto 2px;
 	pading: 0;
+	width: 720px;
+	font: 18px/1.4em lato;
 }
 .touchcarousel.tc-layout-2 a img {
-	max-width: none;
-	margin: 0;
-	padding: 0;
 }
+
+
