@@ -12,5 +12,5 @@ Version: 0.5.1
 Tags: custom-menu, sticky-post, microformats, rtl-language-support, translation-ready, full-width-template, post-formats
 */
 
-@import url('http://www.site.dev/www.lapage-ch.dev/wp-content/themes/lapage/css/carousel.css')screen;
-@import url('http://www.site.dev/www.lapage-ch.dev/wp-content/themes/lapage/css/allcss.css')screen;
+@import url('css/carousel.css')screen;
+@import url('css/allcss.css')screen;
