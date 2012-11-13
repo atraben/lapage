@@ -11,6 +11,7 @@ if ( has_post_thumbnail() ) { ?>
 
 		<div class="entry-image">
 <?php the_post_thumbnail( 'miniature-archives' ); ?>
+
 		</div>
 		
 <?php } else {
@@ -50,7 +51,7 @@ if ( has_post_thumbnail() ) { ?>
 		<?php if ( in_category('publications') ) {
 				the_excerpt();
 		} else { ?>
-	<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'toolbox' ) ); ?>
+	<?php the_content(); ?>
 <?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'toolbox' ), 'after' => '</div>' ) ); ?>
 
 <?php } ?>	</div><!-- .entry-content -->

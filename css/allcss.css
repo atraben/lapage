@@ -195,9 +195,10 @@ body {
 
 .entry-image {
 	float: left;
-	width: 360px;
+	width: 340px;
 	height: auto;
 	margin-left: -50px;
+	margin-right: 20px;
 }
 
 .attachment-miniature-archives.wp-post-image {
@@ -233,7 +234,8 @@ header.entry-header {
 
 #clear {
 	clear: both;
-	height: 20px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
 }
 
 .entry-content {
