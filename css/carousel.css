@@ -20,6 +20,7 @@
 	position: relative;
 	z-index: 10;
 }
+
 .touchcarousel.tc-layout-2 .tc-image-holder {
 	height: 270xp;
 	text-align: center;
@@ -39,6 +40,7 @@
 	width: 720px;
 	margin: 45px auto 10px;
 }
+
 .touchcarousel.tc-layout-2 .tc-meta a,
 .touchcarousel.tc-layout-2 .tc-meta span {
 	font-size: 12px;

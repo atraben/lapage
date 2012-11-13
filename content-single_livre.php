@@ -4,7 +4,7 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<articlelivre id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		
 	<div class="entry-content">
@@ -16,4 +16,4 @@
 	<footer class="entry-meta">
 		
 			</footer><!-- .entry-meta -->
-</article><!-- #post-<?php the_ID(); ?> -->
+</articlelivre><!-- #post-<?php the_ID(); ?> -->

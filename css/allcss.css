@@ -192,10 +192,58 @@ body {
 
 .sticky {
 }
-.entry-meta {
-	clear: both;
-	display: block;
+
+.entry-image {
+	float: left;
+	width: 360px;
+	height: auto;
+	margin-left: -50px;
 }
+
+.attachment-miniature-archives.wp-post-image {
+width:auto;
+height:auto;
+max-width:100%;
+}
+
+h2.entry-title a {
+	font: bold 32px/0.9em 'Fjord One', serif;
+	text-decoration: none;
+	color: black;
+}
+
+.tag-links {
+	color: gray;
+	font: bold 12px/0.8em lato,sans-serif;
+}
+
+.tag-links a {
+	color: gray;
+	text-decoration: none;
+}
+
+.entry-meta {
+	display: block;
+	margin-top: -16px;
+}
+
+header.entry-header {
+	padding-top: 10px;
+}
+
+#clear {
+	clear: both;
+	height: 20px;
+}
+
+.entry-content {
+	font: 14px/1.3em lato,sans-serif;
+}
+
+article {
+	margin-left: 50px;
+}
+
 .single-author .entry-meta .byline {
 	display: none;
 }
