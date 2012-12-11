@@ -16,6 +16,8 @@
 		<a name="contacts">L’APAGE (L’Association pour une Publication sur les Artistes à GEnève) — 12 rue de la Coulouvrenière — CH-1204 Genève</a><br />
 
 		</div>
+		<div id="lang"></div><?php get_sidebar('foot'); ?>
+		
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

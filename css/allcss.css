@@ -34,17 +34,44 @@ body {
 }
 #colophon {
 	font: 700 12px 'Lato',sans-serif;
-	clear: both;
-	display: block;
 	width: 100%;
-	height: 40px;
-	text-align: center;
+	height: 50px;
+	clear: both;
+	display: inline-block;
+	margin-top: 20px;
 }
 
+a.cloak_eml {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover.cloak_eml{
+	text-decoration: underline;
+}
+.textwidget {
+	float: right;
+	display: block;
+	margin-top: 11px;
+	margin-right: 35px;
+}
 
 #site-generator a {
-	padding-top: 6px;
-	display: block;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#qtrans_select_qtranslate-2-chooser {
+	margin-top: 10px;
+	margin-left: 40px;
+	margin-right: 50px;
+	float: right;
+}
+
+#site-generator {
+	display: inline-block;
+	margin-top: 11px;
+	float: left;
 }
 
 /* Increase the size of the content area for templates without sidebars */
@@ -240,6 +267,7 @@ header.entry-header {
 
 .entry-content {
 	font: 14px/1.3em lato,sans-serif;
+	width: 95%;
 }
 
 article {
@@ -426,6 +454,8 @@ input[type=text],
 input#s {
 	margin: 0 1em 0 0;
 	width: 60%;
+	display: block;
+	float: right;
 }
 textarea {
 	width: 80%;
@@ -465,8 +495,9 @@ article.comment {
 -------------------------------------------------------------- */
 
 .widget {
-	display: block;
+	
 }
+
 .widget-area .widget_search {
 	overflow: hidden;
 }

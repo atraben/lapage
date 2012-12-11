@@ -4,12 +4,17 @@
 
 .touchcarousel.tc-layout-2 .touchcarousel-item {
 	width: 940px;
-	height: 400px;
+	height: 430px;
 	position: relative;
 	margin-right: 10px;
 	overflow: hidden;
 	background-color: #fff;
 }
+
+#touchcarousel-1 {
+	margin-left: -50px;
+}
+
 .touchcarousel.tc-layout-2 .touchcarousel-item a {
 	text-decoration: none;
 }
